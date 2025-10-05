@@ -4,7 +4,7 @@ on:
   push:
     tags:
       - '*'
-  workflow_dispatch:
+  workflow_dispatch: 
 
 permissions:
   contents: write
@@ -21,6 +21,7 @@ jobs:
         id: build
         with:
           image-name: pi-motion
+          release: bullseye
           # compression: gz
           # compression-level: 6
           # disable-first-boot-user-rename: 1
