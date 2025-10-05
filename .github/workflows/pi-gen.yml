@@ -17,20 +17,17 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Run pi-gen-action
-        uses: usimd/pi-gen-action@v1.10.0
+        uses: usimd/pi-gen-action@v1
         id: build
         with:
           image-name: pi-motion
-          
           compression: gz
           compression-level: 6
           disable-first-boot-user-rename: 1
           enable-ssh: 1
           keyboard-keymap: us
           locale: en_US.UTF-8
-          pi-gen-version: arm64
-          release: bookworm
-          stage-list: stage0 stage1 stage2 ./stage-motion
+          stage-list: stage0 stage1 stage2 ../../stage-motion
           timezone: Europe/Prague
           verbose-output: true
 
