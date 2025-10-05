@@ -30,7 +30,7 @@ jobs:
           locale: en_US.UTF-8
           pi-gen-version: arm64
           release: bookworm
-          stage-list: stage0 stage1 stage2 ./stage-pi-motion
+          stage-list: stage0 stage1 stage2 ./stage-motion
           timezone: Europe/Prague
           verbose-output: true
 
