@@ -27,7 +27,7 @@ jobs:
           enable-ssh: 1
           keyboard-keymap: us
           locale: en_US.UTF-8
-          stage-list: stage0 stage1 stage2 ../../stage-motion
+          stage-list: stage0 stage1 stage2
           timezone: Europe/Prague
           verbose-output: true
 
