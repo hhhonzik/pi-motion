@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Run pi-gen-action
-        uses: usimd/pi-gen-action@f022813e54a67d9f8fe8a6a6d620a5da3739a632
+        uses: usimd/pi-gen-action@v1
         id: build
         with:
           image-name: pi-motion
