@@ -21,15 +21,15 @@ jobs:
         id: build
         with:
           image-name: pi-motion
-          compression: gz
-          compression-level: 6
-          disable-first-boot-user-rename: 1
-          enable-ssh: 1
-          keyboard-keymap: us
-          locale: en_US.UTF-8
-          stage-list: stage0 stage1 stage2
-          timezone: Europe/Prague
-          verbose-output: true
+          # compression: gz
+          # compression-level: 6
+          # disable-first-boot-user-rename: 1
+          # enable-ssh: 1
+          # keyboard-keymap: us
+          # locale: en_US.UTF-8
+          # stage-list: stage0 stage1 stage2
+          # timezone: Europe/Prague
+          # verbose-output: true
 
       - name: Release image
         uses: softprops/action-gh-release@v2
