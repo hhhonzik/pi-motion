@@ -21,7 +21,7 @@ jobs:
         id: build
         with:
           image-name: pi-motion
-          release: bullseye
+          release: bookworm
           username: pi
           password: 676767
           enable-noobs: false
